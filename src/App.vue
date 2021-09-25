@@ -2,17 +2,17 @@
 <div id="app">
 
      <h1> Problema de Monty Hall</h1>
-     <Gift />
+     <Door number="1" :hasGift="true" />
   </div>
   
 </template>
 
 <script>
-import Gift from './components/Gift'
+import Door from './components/Door'
 
 export default {
       name: 'App',
-      components: { Gift  }       
+      components: { Door }       
 }
 </script>
 
